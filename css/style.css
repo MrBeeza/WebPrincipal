@@ -220,6 +220,7 @@ margin-top: 2.6rem;
 }
 
 .content__page{
+    
     min-height: 100%;
     border-radius: 3.2rem;
     background-color: var(--color-principal);
@@ -315,4 +316,27 @@ margin-top: 2.6rem;
 .menu__option:hover .menu__overlay{
     opacity: 1;
     right: 100%;
+}
+
+
+
+/*SOBRE MI*/
+
+
+.content__about{
+    height: 100%;
+    min-height: 100%;
+    padding: 6rem;
+    padding-right: 3rem;
+    overflow: auto;
+    display: block;
+   
+
+
+    
+   
+    
+
+
+
 }
