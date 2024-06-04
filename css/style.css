@@ -330,13 +330,129 @@ margin-top: 2.6rem;
     padding-right: 3rem;
     overflow: auto;
     display: block;
-   
+   }
 
 
+.about__header{
+    display: inline-block;
+    margin-bottom: 4.5rem;
+
+
+}
+
+.about__title{
+    font-size: 3.2rem;
+    position: relative;
     
-   
+}
+
+.about__title::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: -25px;
+    width: 50px;
+    height: 30px;
+    background-image: -webkit-repeating-radial-gradient(center center, var(--color-secondary), var(--color-secondary) 1px, transparent 0px, transparent 100%);
+    background-size: 6px 6px;
+    opacity: 0.5;
+
+}
+
+.title__color{
+    color: var(--color-secondary);
+
+}
+
+/*información personal*/
+
+.about__personal-info{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 5rem;
+
+}
+
+.personal-info__bio{
+    flex-basis: 56%;
     
 
+}
 
+.personal-info__data{
+    flex-basis: 44%;
+    padding: 0 3.5rem;
+
+}
+
+.personal-info__description{
+    font-size: 1.6rem;
+    line-height: 2rem;
+
+}
+
+.personal-info__option{
+    margin-bottom: 1rem;
+
+}
+
+
+.personal-info__title{
+    margin-right: 0.5rem;
+    color: var(--color-secondary);
+    font-weight: 800;
+
+}
+
+
+/*servicion maquetado*/
+.about__services{
+    width: 100%;
+    margin-bottom: 3rem;
+
+}
+
+.services__header{
+    display: inline-block;
+    padding-right: 1.2rem;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.services__title{
+    font-size: 2.1rem;
+}
+
+.services__title::after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: 30px;
+    height: 20px;
+    background-image: -webkit-repeating-radial-gradient(center center, var(--color-secondary), var(--color-secondary) 1px, transparent 0px, transparent 100%);
+    background-size: 6px 6px;
+    opacity: 0.5;
+}
+.services__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.services__service{
+    flex-basis: calc(50% - 3rem);
+    margin-right: 3rem;
+    margin-bottom: 2.5rem;
+
+}
+
+
+.services__real-icon{
+    color: var(--color-secondary);
+    font-size: 3.8rem;
 
 }
